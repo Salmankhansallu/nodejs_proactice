@@ -1,0 +1,13 @@
+h1{
+    color: red;
+    text-transform: capitalize;
+}
+img{
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+.header ul li{
+    list-style: none;
+    background-color: aqua;
+}
