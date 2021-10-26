@@ -32,3 +32,45 @@ const Studentdata=new mongoose.model("Studentdata",playlistSchema);
 //  }
 // }
 // createDocument();
+
+
+// const getdata=async ()=>{
+//     const result=await Studentdata.find()
+//     .select({fname:1})
+//     .sort({fname:1}).count();
+//     console.log(result);
+// }
+// getdata();
+
+// const updatedocument= async (_id)=>{
+//     try{
+//         const result=await Studentdata.findByIdAndUpdate({_id},{
+//             $set:{
+//                 fname:"salman"
+//             }
+//         }, {
+//             new : true,
+//             useFindAndModify:false
+//         });
+//         console.log(result);
+//     }catch(err){
+//         console.log(err);
+//     }
+    
+    
+// }
+// updatedocument("6176aecfe6c22bd995563366");
+
+
+// const deletedata= async (_id)=>{
+//     try{
+//         const result = await Studentdata.findByIdAndDelete({_id});
+//         console.log(result);
+
+//     }catch(err){
+//         console.log(err);
+//     }
+// }
+// deletedata("6176aecfe6c22bd995563366");
+
+
